@@ -1,0 +1,90 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.container {
+    max-width: 1065px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+/* @media (max-width: 768px) {
+    .container {
+        padding: 0 42px;
+    }
+} */
+h1 {
+    font-weight: 800;
+    font-size: calc(40px + 18 * ((100vw - 320px) / (1920 - 320)));
+    line-height: 138%;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 142%;
+    letter-spacing: 0.2px;
+    color: #252B42;    
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: uppercase;
+    letter-spacing: 0.1px;
+    color: #737373;
+}
+h6 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
