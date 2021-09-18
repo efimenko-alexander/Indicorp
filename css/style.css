@@ -55,7 +55,6 @@
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: max-content max-content;
         grid-row-gap: 40px;
-        background: #F7F7F7;
         overflow: hidden;
         transition: height 0.5s;
     }
